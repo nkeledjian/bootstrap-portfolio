@@ -1,12 +1,23 @@
 /*id = # (HIGH priority - style a single element, renders once)*/
 /*class = . (LOW priority - style as many times as you like*/
+.topborder {
+    border-bottom: 2px solid #4aaaa5;
+}
+main {
+    position:fixed;
+}
 
-#background {
-    background-image: url("../images/whiteMarble.jpg")
+.background {
+    opacity: 0.8;
+    background-image: url("../assets/images/blueBack.png");
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
 }
 
 #backgroundColor {
-    background-color: rgb(95, 105, 105);
+    background-color: rgb(107, 133, 133);
     color: whitesmoke;
 }
 
@@ -18,14 +29,21 @@ footer {
     border-top: 7px solid #4aaaa5;
     padding-top: 20px;
     padding-bottom: 17px;
-    
 }
 
-.aboutimg {
-    padding: 0px 0px 7px 0px;
+.aboutImg {
+    padding-bottom: 18px;
 }
 
-
+.aboutTxt {
+    margin-top: 50px;
+}
+.portImg {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
 
 
 
