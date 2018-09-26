@@ -1,5 +1,9 @@
 /*id = # (HIGH priority - style a single element, renders once)*/
 /*class = . (LOW priority - style as many times as you like*/
+html {
+    position: relative;
+    min-height: 100%;
+}
 .topborder {
     border-bottom: 2px solid #4aaaa5;
 }
@@ -29,6 +33,7 @@ footer {
     border-top: 7px solid #4aaaa5;
     padding-top: 20px;
     padding-bottom: 17px;
+    bottom: 0;
 }
 
 .aboutImg {
