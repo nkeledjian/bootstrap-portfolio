@@ -1,5 +1,16 @@
 /*id = # (HIGH priority - style a single element, renders once)*/
 /*class = . (LOW priority - style as many times as you like*/
+
+/* GENERAL */
+
+body {
+    background-image: url("../assets/images/blueBack.png");
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+    max-height: 100%;
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -11,37 +22,39 @@ main {
     position:fixed;
 }
 
-.background {
-    opacity: 0.8;
-    background-image: url("../assets/images/blueBack.png");
-    background-position: center;
-    background-attachment: fixed;
-    max-width: 100%;
-    height: auto;
-}
+
+/* FOOTER */
 
 #backgroundColor {
     background-color: rgb(107, 133, 133);
     color: whitesmoke;
 }
 
+
 #footertxt {
     text-align: center;
 }
-
+.footpos {
+    display: flex;
+    align-items: center;
+}
 footer {
     border-top: 7px solid #4aaaa5;
+    margin-top: 25em;
     padding-top: 20px;
     padding-bottom: 17px;
-    bottom: 0;
 }
 
+/* ABOUT PAGE */
 .aboutImg {
     padding-bottom: 18px;
 }
 
 .aboutTxt {
     margin-top: 50px;
+}
+.aboutTxt2 {
+    padding-top: 10px;
 }
 .portImg {
     width: 200px;
