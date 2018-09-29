@@ -4,7 +4,7 @@
 /* GENERAL */
 
 body {
-    background-image: url("../assets/images/blueBack.png");
+    background-image: url("../images/whiteMarble.jpg");
     background-position: center;
     background-attachment: fixed;
     max-width: 100%;
@@ -16,7 +16,7 @@ html {
     min-height: 100%;
 }
 .topborder {
-    border-bottom: 2px solid #4aaaa5;
+    border-bottom: 1px solid #4aaaa5;
 }
 main {
     position:fixed;
@@ -39,7 +39,7 @@ main {
     align-items: center;
 }
 footer {
-    border-top: 7px solid #4aaaa5;
+    border-top: 10px solid #4aaaa5;
     margin-top: 25em;
     padding-top: 20px;
     padding-bottom: 17px;
